@@ -1,4 +1,4 @@
-for num in 1..20 do
+(1..20).each do |num|
     if num % 15 == 0 then
         puts "FizzBuzz"
     elsif num % 3 == 0 then
